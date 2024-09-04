@@ -357,4 +357,4 @@ class VertexBufferBuilder:
         if current_game == SollumzGame.GTA:
             return np.concatenate((tangents, bitangent_signs), axis=1)
         elif current_game == SollumzGame.RDR:
-            return np.concatenate((tangents, bitangent_signs * -1), axis=1)
+            return np.concatenate((tangents, bitangent_signs), axis=1)
